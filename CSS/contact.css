@@ -1,0 +1,86 @@
+header,footer,aside,section{
+    
+	
+    
+    
+    
+}
+#spin{
+	margin-top:-75px;
+	height:200px;
+	width:15%;
+	float:right;
+}
+#clock {
+	float:bottom;
+	float: left;
+	font-size: 20px;
+	background-color:grey;
+	margin-right:5px;
+}
+#wrap{
+    
+    height: 100%;
+    width: 100%;
+}
+#main{
+	width: 80%;
+	height: 590px;
+	border: solid;
+	margin-left: 40px;
+	border-radius:20px;
+}
+footer{
+	position: fixed;
+	bottom: 0px;
+	left:0px;
+	background-color: grey;
+	font-size: 20px ;
+	float: left;
+	color: red;
+	width:100%;
+}
+
+header {
+
+	background-color: grey;
+	color: red;
+	font-size: 150%;
+	margin-top:5px;
+}
+body {
+    
+    margin: 0;
+    width: 100%;
+}
+#nav{
+	padding-bottom: 80px;
+	
+}
+ul li { 
+    font-size:33px;
+   list-style-type: none;
+   background-color: white;
+   border-style: solid;
+   color:red;
+   border-color:grey;
+}
+#contactdetails{
+	width:20%;
+	float:left;
+}
+#map{
+	float: left;
+	margin-left: 40px;
+	margin-top: 10px;
+}
+li {
+
+    margin-top: 5px;
+    float: left;
+    width: 480px;
+    text-align: center;}
+	
+	
+	#name {display:none;}
+	#surname{display:none;}

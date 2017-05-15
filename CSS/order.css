@@ -1,0 +1,89 @@
+header,footer,aside,section{
+    
+    width: 100%;
+   
+}
+
+#spin{
+	margin-top:-82px;
+	height:200px;
+	width:15%;
+	float:right;
+	
+
+}
+
+#main{
+	
+	
+	
+}
+footer{
+	position: fixed;
+	bottom: 0px;
+	left:0px;
+	background-color: grey;
+	font-size: 20px ;
+	float: left;
+	color: red;
+	float: bottom;
+	
+}
+header {
+    
+    
+	background-color: grey;
+	color: red;
+	font-size: 150%;
+}
+#wrap{
+    
+    
+    width: 100%;
+}
+#clock {
+	margin-right:5px;
+	float: left;
+	font-size: 20px;
+	background-color: grey;
+}
+body {
+    
+    margin: 0;
+    width: 100%;
+}
+
+#selectfood{
+	
+	height:500px;
+	
+	
+}
+#nav{
+	
+	padding-bottom:80px;
+	
+}
+
+ul li { 
+   font-size:33px; 
+   list-style-type: none;
+   background-color: white;
+   color: red;
+   border-color: grey;
+   border-style:solid;
+}
+
+
+li {
+    
+    float: left;
+    width: 450px;
+    text-align: center;}
+	
+nav{
+	
+	margin-left: 40px;
+	
+	
+}

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta charset="UTF-8">
+    <meta lang="en"> 
+    <meta name="description" content=""> 
+    <meta name="author" content="">
+    <meta name="keywords" content="  ">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=0">
+    
+    <title> Order </title>
+    
+    <link type="text/css" rel="stylesheet" href="../CSS/order.css">
+	<link rel="icon" href="favicon.png" type="image/gif" sizes="16x16">
+    
+    <script type="text/javascript" src="../Java/clock.js"> 
+    </script>
+   
+    </head>
+    <body onload="main()">
+   
+       <header> <h1> Solent Pizza </h1> <img id="spin" src="spinningpizza.png"></header>
+		   
+         
+
+		<div id="nav">  
+             
+        <ul> 
+        
+            <a href="home.html"> <li class="left">  Home  </li>  </a>
+            <a href="order.html"> <li>   Order  </li> </a> 
+             <a href="contact.html"> <li>   Contact Us </li> </a>
+        
+        </ul>
+        
+            
+            </div>
+        
+       
+    
+        <section>   
+        
+		
+		<div id="main">
+			<div id="selectfood">
+             <form>  
+                
+               
+                
+                <fieldset class="pizzas">           
+                    
+                        <p>Select the Pizza Type </p>
+                        
+                       <label> Four Cheeses <input type="radio" name="pizza" value="Four Cheeses" checked="checked"> </label>
+                       
+                       <select name="size">
+                           
+                           <option value="small"> Small £4.50 </option>
+                           <option value="medium"> Medium £6.00 </option>
+                           <option value="large"> Large £9.00 </option> 
+                           
+                       </select>
+                       
+                       <p id="desc"> Four Cheeses & Tomato Sauce </p>
+                       
+                       <!--Four cheese end-->
+                       
+                        <label> Farmhouse <input type="radio" name="pizza" value="Farmhouse" checked="checked"> </label>
+                       
+                       <select name="size">
+                           
+                           <option value="small"> Small £5.00 </option>
+                           <option value="medium"> Medium £7.00 </option>
+                           <option value="big"> Large £9.00 </option> 
+                           
+                       </select>
+                       
+                       <p id="desc"> Tomato Sauce, Cheese, Ham and Pineapple </p>
+                       
+                       <!--Farmhouse end-->
+                       
+                        <label> Meaty Madness <input type="radio" name="pizza" value="meaty Ball" checked="checked"> </label>
+                       
+                       <select name="size">
+                           
+                           <option value="small"> Small £6.50 </option>
+                           <option value="medium"> Medium £8.00 </option>
+                           <option value="big"> Big £11.00 </option> 
+                           
+                       </select>
+                       
+                       <p id="desc"> Cheese, Tomato Sauce, Beef, Salami, Ham, Chicken </p>
+                       
+                       <!--Meaty Madness End-->
+                       
+                       
+                        <label> Spicy Meat <input type="radio" name="pizza" value="hawaiian" checked="checked"> </label>
+                       
+                       <select name="size">
+                           
+                           <option value="small"> Small £6.00 </option>
+                           <option value="medium"> Medium £8.00 </option>
+                           <option value="big"> Large £11.00 </option> 
+                           
+                       </select>
+                       
+                       <p id="desc">Cheese,Tomato Sauce, Pepporoni, Salami, Beef, Chillis </p>
+                       
+                       <!--Spicy Meat End-->
+                
+                
+                </fieldset> <!--End of Pizza selection-->
+                 </form>
+			</div>
+		</div>
+        </section>
+     <footer>
+	<p id="clock" src="clock.js"> </p>
+	<p id="date" src="clock.js"> </p>
+	
+	</footer>
+    </body>
+	
+	
+	
+	
+</html>
